@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chelsea Market', cursive;
+    background-color: #fffff2;
+    
+}
+
+header {
+    background-color: #e4572e;
+    height: 94px;
+    width: 1024;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sanni {
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+}
+.fresh {
+    color: white;
+    text-align: center;
+}
+.box1 {
+    border: 2px solid #050401;;
+    height: 180px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+.box2 {
+    border: 2px solid #050401;
+    height: 200px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+.box1 img {
+    float: right;
+    padding: 0 20px 20px 0;
+    position: relative;
+    top: -30px;
+}
+.box2 img {
+    float: right;
+    padding: 0 20px 20px 0;
+    position: relative;
+    top: -30px;
+}
+.stay {
+  text-align: center;
+  margin-left: 28%;
+  margin-right: auto;
+  justify-content: center;  
+}
+footer {
+    text-align: center;
+}
+form {
+    display: grid;
+    grid-template-columns: 200px 110px 100px;
+    margin-left: 34%;
+}
+.name {
+    border: 1px solid black;
+    box-shadow: 1px 2px red;
+}
+.email {
+    border: 1px solid black;
+    box-shadow: 1px 2px red;
+}
+.submit {
+    border: 1px solid black;
+    box-shadow: 1px 2px red;
+}
